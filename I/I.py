@@ -4,8 +4,9 @@ class CommandNode:
         self.next_node = None
         self.previous_node = None
 
+# on crée nos différrentes fonctions avec ces paramètres que l'on appelera dans le command.py depuis la class History 
 
-class CommandHistory:
+class History:
     def __init__(self):
         self.current_node = None
         self.first_node = None
@@ -13,7 +14,7 @@ class CommandHistory:
         self.all_commands = []
         self.current_position = 0
 
-    def add_command(self, data):
+    def add(self, data):
         new_node = CommandNode(data)
 
         if self.first_node is None:
