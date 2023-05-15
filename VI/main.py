@@ -9,7 +9,7 @@ intents.message_content = True
 intents.members = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
-TOKEN = 'MTA5MTMzNDE2MDk1NTc0ODQyMg.GJmPLv.F6a8usXf6oIOV3threVGNZMdd0ncIMnKMbbFNw'
+TOKEN = ''
 
 
 Translate(bot)
